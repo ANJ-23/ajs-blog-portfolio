@@ -1,3 +1,6 @@
+// Base layout throughout the site
+// This site's layout (so far) = Navbar, (static page content - home or blog), Footer, (analytics stuff behind the scenes)
+
 import './global.css'
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
