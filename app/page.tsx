@@ -1,5 +1,8 @@
 import { BlogPosts } from 'app/components/posts'
 
+// Home Page
+// Do Tailwind.css magic here (3 rows of flexboxes - 1 nav container row, 1 body container row with 3 boxes, 1 footer container row with 1 centered box)
+
 export default function Page() {
   return (
     <section>

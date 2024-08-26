@@ -1,16 +1,19 @@
 import Link from 'next/link'
 
+// URL routes + link names
 const navItems = {
   '/': {
-    name: 'home',
+    name: 'Home',
   },
   '/blog': {
-    name: 'blog',
+    name: 'Blog',
   },
   'https://vercel.com/templates/next.js/portfolio-starter-kit': {
-    name: 'deploy',
+    name: 'Deploy',
   },
 }
+
+// change Navbar color?
 
 export function Navbar() {
   return (
