@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import { formatDate, getBlogPosts } from 'app/blog/utils'
 
+// Obtain posts from SQL? If that's even possible (look up "blog using typescript and mysql").
+
 export function BlogPosts() {
   let allBlogs = getBlogPosts()
 
