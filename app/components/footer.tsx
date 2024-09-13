@@ -1,6 +1,6 @@
 import Image from "next/image";
 import rss_icon from "../assets/images/rss_icon_2.png";
-import github_icon from "../assets/images/github_icon_small.png";
+import github_icon from "../assets/images/github_logo_3.png";
 import linkedin_icon from "../assets/images/linkedin_icon_small.png";
 
 function ArrowIcon() {
@@ -34,7 +34,7 @@ export default function Footer() {
             href="/rss"
           >
             {/* <ArrowIcon /> */}
-            <Image src={rss_icon} alt="RSS Icon" width={32} height={32} className=""></Image>
+            <Image src={rss_icon} alt="RSS Icon" width={32} height={32} className="invert"></Image>
             <p className="ml-2 h-7">RSS</p>
           </a>
         </li>
@@ -46,7 +46,7 @@ export default function Footer() {
             href="https://github.com/ANJ-23"
           >
             {/* <ArrowIcon /> */}
-            <Image src={github_icon} alt="GitHub Icon" width={32} height={32} className=""></Image>
+            <Image src={github_icon} alt="GitHub Icon" width={32} height={32} className="invert"></Image>
             <p className="ml-2 h-7">GitHub</p>
           </a>
         </li>
@@ -58,7 +58,7 @@ export default function Footer() {
             href="https://github.com/ANJ-23"
           >
             {/* <ArrowIcon /> */}
-            <Image src={linkedin_icon} alt="LinkedIn Icon" width={32} height={32} className=""></Image>
+            <Image src={linkedin_icon} alt="LinkedIn Icon" width={32} height={32} className="invert"></Image>
             <p className="ml-2 h-7">LinkedIn</p>
           </a>
         </li>
