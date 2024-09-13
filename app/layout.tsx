@@ -1,5 +1,5 @@
 // Base layout throughout the site
-// This site's layout (so far) = Navbar, (static page content - home or blog), Footer, (analytics stuff behind the scenes)
+// This site's layout (so far) = Navbar, static page content (home and/or blog posts), Footer, analytics stuff behind the scenes
 
 import './global.css'
 import type { Metadata } from 'next'
@@ -56,7 +56,7 @@ export default function RootLayout({
       )}
     >
       <body className="antialiased md:mx-0">
-        <nav className="bg-slate-900">
+        <nav className="dark:bg-slate-800">
           <Navbar />
         </nav>
         <main className="flex-auto min-w-0 flex flex-col px-2 mx-4 md:px-0 max-w-xl md:mx-auto">

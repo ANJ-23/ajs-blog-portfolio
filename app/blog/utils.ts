@@ -1,3 +1,5 @@
+// Reads .mdx files + makes them formatted and usable
+
 import fs from 'fs'
 import path from 'path'
 
