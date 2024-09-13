@@ -14,15 +14,15 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: `Andrew Joo - Portfolio`,
+    template: `%s | Andrew Joo's Portfolio`,
   },
-  description: 'This is my portfolio.',
+  description: `This is a portfolio website made by Andrew Joo. It uses Next.js, TypeScript, Tailwind.css, and Vercel to demonstrate full-stack web development skills.`,
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: `Andrew Joo - Portfolio`,
+    description: `This is a portfolio website made by Andrew Joo. It uses Next.js, TypeScript, Tailwind.css, and Vercel to demonstrate full-stack web development skills.`,
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: `Andrew Joo - Portfolio`,
     locale: 'en_US',
     type: 'website',
   },
@@ -55,9 +55,11 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+      <body className="antialiased md:mx-0">
+        <nav className="bg-slate-900">
           <Navbar />
+        </nav>
+        <main className="flex-auto min-w-0 flex flex-col px-2 mx-4 md:px-0 max-w-xl md:mx-auto">
           {children}
           <Footer />
           <Analytics />

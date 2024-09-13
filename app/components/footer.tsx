@@ -20,14 +20,11 @@ function ArrowIcon() {
   )
 }
 
-// add GitHub & LinkedIn icons/links
-// Move Footer to very bottom (no matter the size)
 // (see Tailwind.css docs)
 
 export default function Footer() {
   return (
-    <footer className="mb-16 footer absolute bottom-0 w-full">
-      {/* w-full */}
+    <footer className="mb-16">
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li>
           <a
@@ -36,8 +33,8 @@ export default function Footer() {
             target="_blank"
             href="/rss"
           >
-            <ArrowIcon />
-            <Image src={rss_icon} alt="RSS Icon" width={48} height={48}></Image>
+            {/* <ArrowIcon /> */}
+            <Image src={rss_icon} alt="RSS Icon" width={32} height={32} className=""></Image>
             <p className="ml-2 h-7">RSS</p>
           </a>
         </li>
@@ -48,8 +45,8 @@ export default function Footer() {
             target="_blank"
             href="https://github.com/ANJ-23"
           >
-            <ArrowIcon />
-            <Image src={github_icon} alt="GitHub Icon"></Image>
+            {/* <ArrowIcon /> */}
+            <Image src={github_icon} alt="GitHub Icon" width={32} height={32} className=""></Image>
             <p className="ml-2 h-7">GitHub</p>
           </a>
         </li>
@@ -60,8 +57,8 @@ export default function Footer() {
             target="_blank"
             href="https://github.com/ANJ-23"
           >
-            <ArrowIcon />
-            <Image src={linkedin_icon} alt="LinkedIn Icon"></Image>
+            {/* <ArrowIcon /> */}
+            <Image src={linkedin_icon} alt="LinkedIn Icon" width={32} height={32} className=""></Image>
             <p className="ml-2 h-7">LinkedIn</p>
           </a>
         </li>
