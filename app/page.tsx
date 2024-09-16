@@ -11,13 +11,7 @@ export default function Page() {
       </h1>
       <p className="mb-4">
         {`
-        (INSERT OBJECTIVE HERE)
-        
-        I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        Certified web developer and IT analyst with over 1 year of experience in web development. Currently transitioning from React-based technologies to .NET and Microsoft Azure stacks. Seasoned in implementing full-stack web technologies and software testing philosophies within squad-based settings.`}
       </p>
       
       <div className="my-8">

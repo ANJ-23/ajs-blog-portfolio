@@ -14,15 +14,15 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: `Andrew Joo - Portfolio`,
-    template: `%s | Andrew Joo's Portfolio`,
+    default: `Andrew Joo - Portfolio Website`,
+    template: `%s | Andrew Joo's Portfolio Website`,
   },
   description: `This is a portfolio website made by Andrew Joo. It uses Next.js, TypeScript, Tailwind.css, and Vercel to demonstrate full-stack web development skills.`,
   openGraph: {
-    title: `Andrew Joo - Portfolio`,
+    title: `Andrew Joo - Portfolio Website`,
     description: `This is a portfolio website made by Andrew Joo. It uses Next.js, TypeScript, Tailwind.css, and Vercel to demonstrate full-stack web development skills.`,
     url: baseUrl,
-    siteName: `Andrew Joo - Portfolio`,
+    siteName: `Andrew Joo - Portfolio Website`,
     locale: 'en_US',
     type: 'website',
   },
@@ -56,7 +56,7 @@ export default function RootLayout({
       )}
     >
       <body className="antialiased md:mx-0">
-        <nav className="dark:bg-slate-800">
+        <nav className="bg-slate-200 dark:bg-slate-800">
           <Navbar />
         </nav>
         <main className="flex-auto min-w-0 flex flex-col px-2 mx-4 md:px-0 max-w-xl md:mx-auto">
