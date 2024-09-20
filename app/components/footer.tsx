@@ -1,7 +1,4 @@
 import Image from "next/image";
-import rss_icon from "../assets/images/rss_icon_2.png";
-import github_icon from "../assets/images/github_logo_3.png";
-import linkedin_icon from "../assets/images/linkedin_icon_small.png";
 
 function ArrowIcon() {
   return (
@@ -34,7 +31,7 @@ export default function Footer() {
             href="/rss"
           >
             {/* <ArrowIcon /> */}
-            <Image src={rss_icon} alt="RSS Icon" width={32} height={32} className="dark:invert"></Image>
+            <Image src={"/icons/rss_icon.png"} alt="RSS Icon" width={32} height={32} className="dark:invert"></Image>
             <p className="ml-2 h-7">RSS</p>
           </a>
         </li>
@@ -46,7 +43,7 @@ export default function Footer() {
             href="https://github.com/ANJ-23"
           >
             {/* <ArrowIcon /> */}
-            <Image src={github_icon} alt="GitHub Icon" width={32} height={32} className="dark:invert"></Image>
+            <Image src={"/icons/github_icon.png"} alt="GitHub Icon" width={32} height={32} className="dark:invert"></Image>
             <p className="ml-2 h-7">GitHub</p>
           </a>
         </li>
@@ -55,10 +52,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/ANJ-23"
+            href="https://www.linkedin.com/in/andrew-joo-500/"
           >
             {/* <ArrowIcon /> */}
-            <Image src={linkedin_icon} alt="LinkedIn Icon" width={32} height={32} className="dark:invert"></Image>
+            <Image src={"/icons/linkedin_icon.png"} alt="LinkedIn Icon" width={32} height={32} className="dark:invert"></Image>
             <p className="ml-2 h-7">LinkedIn</p>
           </a>
         </li>

@@ -8,8 +8,8 @@ const navItems = {
   '/blog': {
     name: 'Blog',
   },
-  'https://vercel.com/templates/next.js/portfolio-starter-kit': {
-    name: 'Deploy',
+  'https://github.com/ANJ-23/portfolio-azure-nextjs': {
+    name: 'Source',
   },
 }
 

@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     default: `Andrew Joo - Portfolio Website`,
     template: `%s | Andrew Joo's Portfolio Website`,
   },
-  description: `This is a portfolio website made by Andrew Joo. It uses Next.js, TypeScript, Tailwind.css, and Vercel to demonstrate full-stack web development skills.`,
+  description: `This is a portfolio website made by Andrew Joo. It uses Next.js, TypeScript, Tailwind.css, Vercel, and Microsoft Azure to demonstrate full-stack web development skills.`,
   openGraph: {
     title: `Andrew Joo - Portfolio Website`,
-    description: `This is a portfolio website made by Andrew Joo. It uses Next.js, TypeScript, Tailwind.css, and Vercel to demonstrate full-stack web development skills.`,
+    description: `This is a portfolio website made by Andrew Joo. It uses Next.js, TypeScript, Tailwind.css, Vercel, and Microsoft Azure to demonstrate full-stack web development skills.`,
     url: baseUrl,
     siteName: `Andrew Joo - Portfolio Website`,
     locale: 'en_US',
