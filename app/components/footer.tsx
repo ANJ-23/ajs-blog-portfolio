@@ -30,7 +30,7 @@ export default function Footer() {
             target="_blank"
             href="/rss"
           >
-            {/* <ArrowIcon /> */}
+            {/* RSS */}
             <Image src={"/icons/rss_icon.png"} alt="RSS Icon" width={32} height={32} className="dark:invert"></Image>
             <p className="ml-2 h-7">RSS</p>
           </a>
@@ -42,7 +42,7 @@ export default function Footer() {
             target="_blank"
             href="https://github.com/ANJ-23"
           >
-            {/* <ArrowIcon /> */}
+            {/* GitHub */}
             <Image src={"/icons/github_icon.png"} alt="GitHub Icon" width={32} height={32} className="dark:invert"></Image>
             <p className="ml-2 h-7">GitHub</p>
           </a>
@@ -54,20 +54,9 @@ export default function Footer() {
             target="_blank"
             href="https://www.linkedin.com/in/andrew-joo-500/"
           >
-            {/* <ArrowIcon /> */}
+            {/* LinkedIn */}
             <Image src={"/icons/linkedin_icon.png"} alt="LinkedIn Icon" width={32} height={32} className="dark:invert"></Image>
             <p className="ml-2 h-7">LinkedIn</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://vercel.com/templates/next.js/portfolio-starter-kit"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">View Source</p>
           </a>
         </li>
       </ul>
