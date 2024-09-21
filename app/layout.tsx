@@ -14,15 +14,15 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: `Andrew Joo - Portfolio Website`,
-    template: `%s | Andrew Joo's Portfolio Website`,
+    default: `Andrew Joo's Website`,
+    template: `%s | Andrew Joo's Website`,
   },
-  description: `This is a portfolio website made by Andrew Joo. It uses Next.js, TypeScript, Tailwind.css, Vercel, and Microsoft Azure to demonstrate full-stack web development skills.`,
+  description: `This website uses Next.js, TypeScript, Tailwind.css, Vercel, and Microsoft Azure to demonstrate a fully functional, full-stack blog and portfolio.`,
   openGraph: {
-    title: `Andrew Joo - Portfolio Website`,
-    description: `This is a portfolio website made by Andrew Joo. It uses Next.js, TypeScript, Tailwind.css, Vercel, and Microsoft Azure to demonstrate full-stack web development skills.`,
+    title: `Andrew Joo's Website`,
+    description: `This website uses Next.js, TypeScript, Tailwind.css, Vercel, and Microsoft Azure to demonstrate a fully functional, full-stack blog and portfolio.`,
     url: baseUrl,
-    siteName: `Andrew Joo - Portfolio Website`,
+    siteName: `Andrew Joo's Website`,
     locale: 'en_US',
     type: 'website',
   },
@@ -55,6 +55,9 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
+      {/* Favicon */}
+      <link rel="icon" href="/icons/favicon.ico" sizes="any" />
+
       <body className="antialiased md:mx-0">
         <nav className="bg-slate-200 dark:bg-slate-800">
           <Navbar />
