@@ -8,7 +8,7 @@ const navItems = {
   '/blog': {
     name: 'Blog',
   },
-  'https://github.com/ANJ-23/portfolio-azure-nextjs': {
+  'https://github.com/ANJ-23/ajs-blog-portfolio': {
     name: 'Source',
   },
 }
