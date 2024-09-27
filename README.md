@@ -15,7 +15,7 @@ This is a porfolio website that doubles as a blog. The site was cloned from [Ver
 
 ## Usage
 
-In the deployed website (<https://portfolio-azure-nextjs.vercel.app/>), users can navigate to the Home page, the Blog page, and the GitHub repository for this website with the top navigation bar.
+In the deployed website (<https://aj-blog-site.vercel.app/>), users can navigate to the Home page, the Blog page, and the GitHub repository for this website with the top navigation bar.
 
 The Home page has a brief self-introduction and a blog feed. The Blog page only has the blog feed. In both pages, clicking on a blog post's title redirects to the respective post. On top of the contents, each post has a "Back to Blog" button that takes the user to the Blog page.
 
